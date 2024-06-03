@@ -14,8 +14,7 @@
   color: #000000;
   font-size: 20px;
   font-weight: 300;
-  margin: 10px 0;
-
+  margin: 40px 0;
 }
 
 .stepNav{
@@ -27,7 +26,9 @@
 }
 
 .marginT{
-  margin-top: 10px;
+  margin-top: 50px;
+  text-align:start;
+  /* background-color: ; */
 }
 
 .bottom10{
@@ -58,6 +59,19 @@
   font-size: 36px;
 }
 
+.spacey{
+  margin: 50px auto;
+  /* background-color: black; */
+}
+
+
+
+.relativeTop{
+  position: relative;
+  top: 40px;
+}
+
+
 body {
   background-color: #FFFFFF;
   color: #333333;
@@ -70,6 +84,26 @@ body {
   margin-left: 60px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .note{
+    color: #000000;
+    font-size: 16px;
+  }
+  .article-head{
+    font-size: 26px !important;
+    font-weight: 100;
+    text-align: start;
+    margin: 0;
+    padding: 10px 0px;
+  }
 }
 
 @media (min-width: 1024px) {
